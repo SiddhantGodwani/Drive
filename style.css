@@ -16,7 +16,7 @@ body {
 }
 .main {
   position: absolute;
-  width: calc(100% -250px);
+  width: calc(100% 250px);
   top: 125px;
   margin-left: 250px;
 }
@@ -107,8 +107,8 @@ input[type="search"]::placeholder {
 .side-nav.floating {
   width: 250px;
   padding: 85px 8px !important;
-  height: calc(100% -130px);
-  left: initial;
+  height: calc(100% - 130px);
+  left: initial;h
   right: initial;
   top: 125px;
   transform: initial;
@@ -152,9 +152,11 @@ input[type="search"]::placeholder {
   font-size: 13px;
   color: #616161;
 }
-side-nav li a:hover {
+
+side-nav li a:hover{
   border-radius: 2px;
 }
+
 /*folders*/
 .folder {
   width: 185px;
@@ -166,3 +168,6 @@ side-nav li a:hover {
   color: rgba(0, 0, 0, 0.54);
   margin-top: -3px;
 }
+
+.dark:hover{background-color:#E4E4E4}
+#dark:hover{background-color:#E4E4E4}
